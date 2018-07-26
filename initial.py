@@ -1,6 +1,6 @@
 import MySQLdb
 import hashlib
-db = MySQLdb.connect('coderkovid.mysql.pythonanywhere-services.com', 'coderkovid', '9843724323Kovid', 'coderkovid$kovid')
+db = MySQLdb.connect('HOST_URL', 'DATABASE_USERNAME', 'DATABASE_PASSWORD', 'DATABASE_NAME')
 
 cursor = db.cursor()
 
